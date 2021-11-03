@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.address h3, p{
+    padding: 5px;
+    text-align: center;
+    }
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 10px solid rgb(121, 92, 19);
+   height: 100vh;
+}
+.imgContainer{
+    position: relative;
+    border: 5px solid greenyellow;
+    height: 35%;
+    width: 25%;
+    
+   
+}
+.image{
+   height: 35vh;
+   width: auto;
+   background: url(/img-flip/img/1.jpg)  no-repeat center center / cover;
+   backface-visibility: hidden;
+ 
+}
+
+.middle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+    top: 30%;
+    left: 25%;
+    background: cornsilk;
+    opacity: 0;
+
+}
+.imgContainer:hover  .image{
+    opacity: .5;
+    
+}
+.imgContainer:hover .middle{
+    opacity: 1;
+}
+.price{
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+/* .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.container:hover .image{
+    opacity: .3;
+}
+.container:hover .middle{
+    opacity: 1;
+}
+.text{
+    background: #BADA55;
+    font-size: 26px;
+    padding: 16px 32px;
+    
+} */
+</style>
+<body>
+    <div class="container">
+        <div class="imgContainer">
+            <div class="image"></div>
+            <div class="middle">
+                <div class="text sale">
+                    <span> 
+                        <p class="price">Price: $1250000</p>
+                        <p>2 <ion-icon name="bed-outline"></ion-icon> 2bath </p>
+                   </span> 
+
+                </div>
+                
+            </div>
+            <div class="information">
+                <div class="address">
+                    <h3>New Home</h3>
+                    <p>102,Trump street,NY</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

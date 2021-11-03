@@ -20,13 +20,20 @@
  
 }   
 .flip-box-front{
-    position: relative;
+    
     background: url(/img-flip/img/06.jpg) no-repeat center center / cover ;
     border: 1px solid red;
-    height: 50vh;
+    height:50vh;
     width: 60vh;
+    transition: transform 0.8s;
 }
-.flip-box-front:hover .flip-box-back{
-    position: absolute;
-    rotate: 180;
-}
+.flip-box-front:hover  {
+    position: relative;
+    transform: rotateX(180deg);
+    background: #bbb;
+    
+  }
+  .flip-box-front:hover .flip-box-back red{
+      position:absolute;
+      color: black;
+  }
