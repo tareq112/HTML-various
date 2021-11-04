@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    border: 10px solid goldenrod;
+}
+/* headind part */
+.heading{
+    display: flex;
+    justify-content: center;
+    height:70vh;
+    border: 2px solid greenyellow;
+    background: rgb(26,33, 51);
+}
+/* heading text div */
+.headingtext{
+    display: flex;
+    flex-direction: column;
+   
+    width: 50%;
+    border: 1px solid red;
+    color: #fff;
+}
+.headingImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+    
+    position: relative;
+
+}
+.bigCircle{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: rgb(51,64,83);
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: baseline;
+}
+.name{
+    position: absolute;
+    top: 68%;
+    left: 30%;
+}
+.smallCircle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 50%;
+    top: 15%;
+    left: 25%;
+    background: #fff  url(img/person.png)  no-repeat center center / cover ;
+}
+.bigYellow{
+    position: absolute;
+    background: yellow;
+    /* background: rgb(255,155,33); */
+    height: 40px;
+    width: 40px;
+    transform: rotate(30deg);
+    top: -10%;
+    left: 25%;
+}
+.smallYellow{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: yellow;
+    top: 85%;
+    left: 15%;
+    transform: rotate(30deg);
+}
+.smallBlue{
+    height: 18px;
+    width: 18px;
+    background: blue;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+.bigBlue{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: blue;
+    border-radius: 50%;
+    top: 96%;
+    left: 70%;
+}
+
+/* content div */
+.content{
+    height: 50vh;
+    border: 2px solid hotpink;
+}
+.newsLetter{
+    height: 10vh;
+    border: 2px solid rgba(99, 81, 81, 0.8);
+}
+.footer{
+    height: 10vh;
+    border: 2px solid rgba(22, 50, 209, 0.8);
+}
