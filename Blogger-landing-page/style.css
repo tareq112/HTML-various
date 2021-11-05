@@ -3,15 +3,21 @@
     padding: 0;
 }
 .container{
+    display: flex;
     height: auto;
-    border: 10px solid goldenrod;
+    /* border: 10px solid goldenrod; */
+    flex-direction: column;
+    /* justify-content: center; */
+     align-items: center; 
+    
 }
 /* headind part */
 .heading{
     display: flex;
     justify-content: center;
-    height:70vh;
-    border: 2px solid greenyellow;
+    width: 90%;
+    height:auto;
+     border-top: 20px solid #fff; 
     background: rgb(26,33, 51);
 }
 /* heading text div */
@@ -19,7 +25,6 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    
     color: #fff;
 }
 .logo{
@@ -42,8 +47,7 @@
     font-weight: lighter;
 }
 .headingNewsLetter{
-    
-    padding: 40px;
+    padding: 40px ;
 }
 .headingNewsLetter p{
     font-family: sans-serif; 
@@ -111,6 +115,14 @@
     top: -10%;
     left: 25%;
 }
+.name h3{
+    font-size: 20px;
+    text-align: center;
+}
+.name p{
+    font-size: 10px;
+    text-align: center;
+}
 .smallYellow{
     position: absolute;
     height: 25px;
@@ -141,20 +153,77 @@
 
 /* content div */
 .content{
+    display: flex;
+    flex-direction:column ;
+    width: 80%; 
     height: auto;
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink;  */
     background: #fff;
-    
+    justify-content: center;
+    align-items: center; 
+    padding: 25px;
+}
+.contentHeading{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
 }
 .item{
-    border: 5px rgb(133, 13, 13);
+    width: 90%; 
+    padding: 8px;
+    font-family: sans-serif;
+}
+.one {
+    border-left: 10px solid  rgb(242,242,242);
+    padding:15px ;
+}
+.itemHeading{
+    padding: 5px 0px;
+}
+.itemPara{
+    padding: 5px 0;
+}
+input[type=button]{
+    padding: 5px;
 }
 
 .newsLetter{
-    height: 10vh;
-    border: 2px solid rgba(63, 34, 34, 0.8);
+    display: flex;
+    width: 80%;
+    height: auto;
+    
+    background: rgb(26, 33, 51);
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
 }
+.footNewsLetter{
+    font-family: sans-serif; 
+    font-size: 17px;
+    color: #fff;
+}
+.footNewsLetter input[type=text]{
+    padding: 12px 20px;
+    width: 45%;
+    border-radius: 4px;
+}
+.footNewsLetter input[type=submit]{
+    background: blue;
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 .footer{
-    height: 10vh;
-    border: 2px solid rgba(22, 50, 209, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* border: 2px solid rgba(22, 50, 209, 0.8); */
+    text-align: center;
+     padding: 15px;
 }
