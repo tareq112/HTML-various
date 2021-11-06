@@ -7,6 +7,7 @@
     height: auto;
     border: 10px solid goldenrod;
 }
+/* ----cover div-------- */
 .cover{
     height: 90vh;
     position: relative;
@@ -48,6 +49,7 @@
     border-radius: 4px;
     border: 1px solid #fff;
 }
+
 /* ---featureCompany div---- */
 .featureCompany{
     display: flex;
@@ -66,7 +68,7 @@
 .products{
      display: flex; 
      justify-content: space-around; 
-     border: 1px solid red;
+     /* border: 1px solid red; */
      height: auto;
      
 }
@@ -95,12 +97,19 @@
 }
 .pimgdetail{
     text-align: center;
+    padding: 20px;
 }
 /* ----feature div--- */
+
 .features{
     height: auto;
     border: 5px solid rgb(4, 8, 4);
 }
+.feature_f1{
+    /* border: 1px solid red; */
+       height: auto;
+       background: #fff;
+    }
  .bigfeature_1{
     /* position: relative; */
     height: 50vh;
@@ -114,4 +123,165 @@
     width: 40%;
     height: 35%;
     border-radius: 4px;
+    padding: 30px;
+}
+.feature_f2{
+ /* border: 1px solid red; */
+    height: auto;
+    background: #fff;
+ }
+.bigfeature_2{
+    background: #fff;
+    color: black;
+    padding: 30px;
+    height: 50vh; 
+    width: 55%;
+}
+.smallfeature_2{
+    position: absolute;
+    top: 214%;
+    left: 58%;
+    width: 40%;
+    height: 35%;
+    border-radius: 4px;
+    padding: 30px;
+    background: url(img/feature2.jpg) no-repeat center center / cover;
+}
+.bigfeature_2 input[type=button]{
+    padding: 8px;
+    font-family:  Fantasy;
+    background:rgb(6,186,180);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+.feature_f3{
+    height: auto;
+}
+.bigfeature_3{
+     width: 100%;
+     height: 50vh;  
+    background: url(img/feature3.jpg) no-repeat center center / cover;
+}
+.smallfeature_3{
+    position: absolute;
+    background: #fff;
+    top: 265%;
+    left: 58%;
+    width: 40%;
+    height: 35%;
+    border-radius: 4px;
+    padding: 30px;
+}
+.smallfeature_3 input[type=button]{
+    padding: 8px;
+    font-family:  Fantasy;
+    background:rgb(6,186,180);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+/* ----feedback------ */
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: auto; */
+    /* border: 5px solid red; */
+    padding:20px ;
+    
+}
+.sub_feedback{
+    width: 80%;
+    /* border: 2px solid gold; */
+}
+.feedback_Head{
+    /* border: 1px solid blue; */
+    padding: 20px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.feebback_review{
+    /* border: 1px solid red; */
+    padding: 25px;
+}
+.review{
+    /* border: 1px solid rgb(176, 192, 176); */
+    background: #fff;
+    
+}
+.review h2{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+.review p{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+.personImg_1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(img/person1-kat.png) no-repeat  center center / cover;
+}
+.personImg_2{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(img/person2-john-smith.png) no-repeat  center center / cover;
+}
+.personImg_3{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(img/person3-jane-doe.png) no-repeat  center center / cover;
+}
+.reviewPerson{
+    display: flex;
+    /* border:1px solid red ; */
+}
+.person_name_address > :first-child {
+    font-weight: bold;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    
+}
+
+/* ----product bundle div---- */
+.productBundle{
+     /* border: 5px solid rgb(144, 151, 184);  */
+     display: flex;
+     height: auto;
+     align-items: center;
+     justify-content: center;
+}
+.sub_productBundle{
+    width: 70%;
+    border: 2px solid silver;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.bundleimg{
+    background: url(img/product_Bundle.jpg) no-repeat  center center / cover;
+    width: 200px;
+    height: 200px;
+}
+.bundleDetails{
+    border:1px solid  silver;
+}
+
+/* -----FAQ div---------- */
+.faq{
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+.sub_faq{
+    width: 80%;
+    border: 3px solid silver;
+}
+.faq_head{
+    text-align: center;
+    padding: 30px;
 }
