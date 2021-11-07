@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height: 100vh;
+    border: 10px solid gold;
+    background: rgb(232,234,240);
+    position: relative;
+}
+.form_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    width: 70vh;
+    background: #fff;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+/* ----header div---- */
+.header_Div{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+/* .logo_Div{
+     border: 1px solid blue; 
+} */
+.logo_Div p{
+    font-weight: bold;
+    text-align: left;
+}
+/* .icon_Div{
+     border: 1px solid blue;
+} */
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    background: url(img/person2-john-smith.png) no-repeat center center / cover;
+}
+
+/* -----heading_Div---- */
+.heading_Div{
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding: 10px;
+}
+.heading_Div h2{
+    font-family: sans-serif;
+    padding: 5px;
+}
+.heading_Div p{
+    padding: 5px;
+    font-family: sans-serif;   
+}
+
+/* ------btn_Div---- */
+.btn_Div{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_btn_Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid blue; */
+   
+}
+.btn{
+    width: 60%;
+    padding:10px ;
+    margin: 10px;
+    background: darkblue;
+    color: #fff;
+    border-radius: 5px;
+    border:2px blue ;
+}
