@@ -3,11 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1,h2,h3,p{
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Fruktur', cursive;
+}
 .container{
+   
     height: auto;
     border: 10px solid goldenrod;
+    
 }
 /* ----cover div-------- */
+ion-icon {
+    color: red; 
+    /* background: yellow; */
+  }
 .cover{
     height: 90vh;
     position: relative;
@@ -264,13 +274,17 @@
 }
 .bundleimg{
     background: url(img/product_Bundle.jpg) no-repeat  center center / cover;
-    width: 200px;
+    width: 50%;
     height: 200px;
 }
 .bundleDetails{
     border:1px solid  silver;
 }
-
+.bundle_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* -----FAQ div---------- */
 .faq{
     display: flex;
@@ -325,7 +339,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     background: black;
     color: #fff;
 }
