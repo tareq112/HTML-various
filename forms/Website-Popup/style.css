@@ -11,13 +11,14 @@
 .form_Div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 60vh;
     width: 70vh;
     background: #fff;
     position: absolute;
     top: 15%;
     left: 35%;
+    border-radius: 5px;
 }
 /* ----header div---- */
 .header_Div{
