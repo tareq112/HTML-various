@@ -1,6 +1,7 @@
 .sandbox{
     background: #fff;
     margin: 25px;
+    border: solid 6px transparent;
 }
 .facebook-style-btn{
     border-radius: 2px;
@@ -60,3 +61,17 @@
        left: -3px;
        box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
    }
+  .btn-3d-1::before{
+      position: absolute;
+      display: block;
+      content: "";
+      height: 0;
+      width: 0;
+      border: solid 6px transparent;
+      border-right:solid 6px hsl(16, 100%, 30%) ;
+      border-left-width:0 ;
+      background: none;
+      top: 0;
+      left: -6px;
+
+  } 
